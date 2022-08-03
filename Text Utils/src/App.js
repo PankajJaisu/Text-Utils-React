@@ -46,7 +46,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<InputText showAlert={showAlert} heading="Enter the text below" mode={mode} alert={alertText}/>}/>
           
-          <Route exact path="/about" element={<About/>} />
+          <Route exact path="/about" element={<About mode={mode}/>} />
           {/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
        
